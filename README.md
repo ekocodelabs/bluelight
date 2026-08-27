@@ -1,3 +1,18 @@
+Bluelight
+
+Bluelight is a modern hotel booking platform built with Next.js and TypeScript. It offers users a fast, fluid, and responsive interface to browse available accommodations, check room details, and manage reservations seamlessly.
+
+🚀 Features
+Hotel Directory: Browse, filter, and search through a collection of premium hotel listings.
+Seamless Booking Flow: An intuitive user experience designed to streamline hotel reservations.
+Type-Safe Architecture: Scalable and reliable codebase written entirely in TypeScript.
+Responsive Layout: A mobile-first, fluid design optimized for all screen sizes using Tailwind CSS.
+
+🛠️ Tech Stack
+Framework: Next.js
+Language: TypeScript
+Styling: Tailwind CSS
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
