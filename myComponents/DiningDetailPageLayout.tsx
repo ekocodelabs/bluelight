@@ -15,7 +15,7 @@ import {
 import { MdOutlineRestaurantMenu, MdOutlineWineBar } from "react-icons/md";
 import { Button } from "@/components/ui/button";
 
-// Imports your clean DINING_VENUES database collection context
+// Imports your clean DINING_VENUES database collection contexttext
 import { DINING_VENUES } from "@/constant/diningdata";
 
 interface DiningDetailPageLayoutProps {
