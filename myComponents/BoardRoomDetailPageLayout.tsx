@@ -189,6 +189,14 @@ export default function BoardRoomDetailPageLayout({
               </h3>
             </div>
 
+            <div className="space-y-1">
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                Price per Hour
+              </span>
+              <p className="text-2xl font-bold text-slate-900 tracking-tight">
+                ${room.priceAmount.toFixed(2)}
+              </p>
+            </div>
             {/* Interactive Scheduler Entries */}
             <form onSubmit={handleCorporateBooking} className="space-y-4">
               <div className="space-y-1">
@@ -244,7 +252,6 @@ export default function BoardRoomDetailPageLayout({
                   : "Reserve Boardroom Block"}
               </Button>
             </form>
-
             <div className="flex items-center justify-center gap-2 text-[11px] text-slate-400 bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-center">
               <FiShield className="text-sky-500 text-sm shrink-0" />
               <span>
