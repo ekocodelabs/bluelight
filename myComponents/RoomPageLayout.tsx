@@ -2,7 +2,7 @@
 import RoomCardLayout from "./RoomCardLayout";
 import { ROOMS_DATA } from "@/constant/roomdata";
 
-export default function RoomPageComponent() {
+export default function RoomPageLayout() {
   return (
     <section className="bg-sky-50/20 py-16 px-6">
       <div className="max-w-7xl mx-auto">

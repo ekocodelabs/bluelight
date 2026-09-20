@@ -1,15 +1,14 @@
-import DinningHero from "@/myComponents/DinningHero";
-import DinningPageLayout from "@/myComponents/DinningPageLayout";
 import FooterLayout from "@/myComponents/FooterLayout";
 import NavbarLayout from "@/myComponents/NavbarLayout";
+import ProfilePageLayout from "@/myComponents/ProfilePageLayout";
 import React from "react";
 
-export default function Dining() {
+export default function ProfilePage() {
   return (
     <main className="min-h-screen bg-white">
       <NavbarLayout />
       <div>
-        <DinningPageLayout />
+        <ProfilePageLayout />
         <FooterLayout />
       </div>
     </main>
