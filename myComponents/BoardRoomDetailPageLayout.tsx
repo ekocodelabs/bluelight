@@ -189,15 +189,6 @@ export default function BoardRoomDetailPageLayout({
               </h3>
             </div>
 
-            <div className="flex items-end justify-between border-b border-slate-100 pb-4">
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">
-                Fixed price per session
-              </span>
-              <span className="text-2xl font-bold text-slate-900">
-                ${room.priceAmount.toFixed(2)}
-              </span>
-            </div>
-
             {/* Interactive Scheduler Entries */}
             <form onSubmit={handleCorporateBooking} className="space-y-4">
               <div className="space-y-1">

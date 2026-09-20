@@ -10,6 +10,7 @@ import { BOARD_ROOM_DATA, BoardRoom } from "@/constant/boardroomdata";
 export default function BoardRoomCard({
   id,
   image,
+  priceAmount,
   title,
   description,
   capacity,
