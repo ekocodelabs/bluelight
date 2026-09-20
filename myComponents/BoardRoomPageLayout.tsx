@@ -110,6 +110,7 @@ export default function BoardRoomPageLayout() {
                 id={space.id}
                 image={space.image}
                 title={space.title}
+                priceAmount={space.priceAmount}
                 description={space.description}
                 capacity={space.capacity}
                 amenities={space.amenities}
